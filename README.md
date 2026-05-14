@@ -1,4 +1,4 @@
-# Desafio - Os Guardiões de Eldoria: Restaurando a Ordem 🗡️🛡️
+# Desafio - Os Guardiões de Eldoria 🗡️🛡️
 
 Olá! Boas-vindas ao desafio de programação do **Tema 1: Introdução à Programação OO em Java**! 
 
