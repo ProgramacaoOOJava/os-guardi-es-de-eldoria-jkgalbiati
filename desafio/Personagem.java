@@ -1,7 +1,7 @@
 package desafio;
 
 public class Personagem {    
-    // Atributos mudados para 'private' para proteger os dados (Encapsulamento)
+    // Atributos mudados para 'protected' para permitir acesso às subclasses
     protected String nome;      
     protected String classe;
     protected int nivel;
@@ -25,6 +25,11 @@ public class Personagem {
         System.out.println("Pontos de Vida: " + this.pontosDeVida);
         System.out.println("Poder Base: " + this.poderBase);
         System.out.println(); // Linha em branco para separar os personagens
+    }
+
+    // Requisito do Polimorfismo: Método base na classe mãe
+    public void usarHabilidadeEspecial() {
+        System.out.println(this.nome + " usou uma habilidade especial.");
     }
 
     // Métodos Getters 

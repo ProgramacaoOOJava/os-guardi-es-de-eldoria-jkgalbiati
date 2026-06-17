@@ -16,6 +16,8 @@ public class Main {
         System.out.println();
         
         guerreiro.exibirStatus();
+        guerreiro.usarHabilidadeEspecial();
         mago.exibirStatus();
+        mago.usarHabilidadeEspecial();
     }
 }
