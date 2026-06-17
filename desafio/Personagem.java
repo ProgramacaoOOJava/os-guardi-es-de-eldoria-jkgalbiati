@@ -2,11 +2,11 @@ package desafio;
 
 public class Personagem {    
     // Atributos mudados para 'private' para proteger os dados (Encapsulamento)
-    private String nome;      
-    private String classe;
-    private int nivel;
-    private int pontosDeVida;
-    private double poderBase;
+    protected String nome;      
+    protected String classe;
+    protected int nivel;
+    protected int pontosDeVida;
+    protected double poderBase;
     
     // Construtor usando o 'this'
     public Personagem(String nome, String classe, int nivel, int pontosDeVida, double poderBase) {  
