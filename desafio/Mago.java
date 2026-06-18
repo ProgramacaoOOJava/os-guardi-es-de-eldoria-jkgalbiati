@@ -16,8 +16,7 @@ public class Mago extends Personagem {
 
     @Override
     public void usarHabilidadeEspecial() {
-        // Requisito 1: Mensagem personalizada para o Mago!
-        System.out.println(this.nome + " usou sua habilidade especial: Explosão Arcana! Gastou de mana, restam " + (this.mana - 15) + " pontos.");
+        System.out.println(this.nome + " usou sua habilidade especial: Explosão Arcana! Gastou 15 de mana, restam " + (this.mana - 15) + " pontos.");
     }
 
     public int getMana() { return mana; }

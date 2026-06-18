@@ -18,7 +18,6 @@ public class Guerreiro extends Personagem {
 
     @Override
     public void usarHabilidadeEspecial() {
-        // Requisito 1: Mensagem personalizada para o Guerreiro!
         System.out.println(this.nome + " usou sua habilidade especial: Golpe Devastador! Força aumentada em " + this.forca + " para o ataque.");
     }
 
